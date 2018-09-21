@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10A7214F1B9FAD7ABB0AD502 /* libPods-KuySwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ED3A3D60768AB861EF116D /* libPods-KuySwift.a */; };
 		597A007B21548E9D00BAB016 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A007A21548E9D00BAB016 /* main.swift */; };
+		597A0082215494CF00BAB016 /* ReactiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A0081215494CF00BAB016 /* ReactiveExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		1A3C6D4F4558507B618914B4 /* Pods-KuySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuySwift.release.xcconfig"; path = "Target Support Files/Pods-KuySwift/Pods-KuySwift.release.xcconfig"; sourceTree = "<group>"; };
 		597A007721548E9D00BAB016 /* KuySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KuySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A007A21548E9D00BAB016 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		597A0081215494CF00BAB016 /* ReactiveExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtension.swift; sourceTree = "<group>"; };
 		E0ED3A3D60768AB861EF116D /* libPods-KuySwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuySwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				597A007A21548E9D00BAB016 /* main.swift */,
+				597A0081215494CF00BAB016 /* ReactiveExtension.swift */,
 			);
 			path = KuySwift;
 			sourceTree = "<group>";
@@ -83,7 +86,6 @@
 				03EEA5CA22DF046B36A9D8C9 /* Pods-KuySwift.debug.xcconfig */,
 				1A3C6D4F4558507B618914B4 /* Pods-KuySwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A0082215494CF00BAB016 /* ReactiveExtension.swift in Sources */,
 				597A007B21548E9D00BAB016 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
