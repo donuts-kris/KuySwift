@@ -1,0 +1,1 @@
+/Users/s.kananat/Documents/KuySwift/Pods/Target Support Files/Result/Result-umbrella.h
